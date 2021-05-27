@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+/* typography */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* images */
+img {
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 10px 10px 30px #666;
+}
+
+/* header */
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/* layout */
+.proj-container {
+    margin-top: 60px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+/* tablets and up */
+/* layout */
+@media (min-width: 800px) {
+
+    /* typography */
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .contact {
+    margin-top: 10px;
+    }
+
+    /* hover effects */
+    .index-img:hover {
+        transform: scale(1.02);
+        transition: 0.2s all ease-in;
+    }
+
+    .contact:hover {
+        color: rgb(16, 7, 151);
+        letter-spacing: 3px;
+        transition: 0.2s all ease-in;
+    }
+
+    /* layout */
+
+    body {
+        margin: 2% 10%;
+    }
+
+    .container {
+        margin: auto;
+        margin-top: 140px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 40px;
+    }
+
+}
