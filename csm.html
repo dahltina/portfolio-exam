@@ -11,33 +11,41 @@
     <title>community science museum | Portfolio | Tina Dahl</title>
 </head>
 <body>
-    <header>
-        <h1>Projects | community science museum</h1>
+    <header class="project-page-header">
+        <h1><a href="index.html">Projects</a> | community science museum</h1>
         <a href="https://www.linkedin.com/in/tina-dahl-17531389/" target="_blank" class="contact">Contact</a>
     </header>
     <main>
         <div class="proj-page-container">
-            <img src="images/csm.jpg" alt="screenshot of community science museums home page">
-            <p>HTML, CSS & JS site for a science museum</p>
-            <a class="btn" href="https://tinadahl-csm.netlify.app" target="_blank">Website</a>
-            <a class="btn" href="https://github.com/dahltina/community-science-museum" target="_blank">GitHub</a>
-            <h2>Initial assignment</h2>
-            <h2>Changes</h2>
-            <p>The feedback I got from this submission was mainly some technical issues, amongst them a horizontal scrollbar
-                on the exhibitions page, that I had too long paragraphs as well as some div's that didn't get closed.</p>
-            <p>I fixed these issues, and made some other changes and improvements.</p>
-            <h3>Contact page</h3>
-            <p>The contact page consists solely of a form. In the inital submission I hadn't put much work into styling it,
-                so there was potential for improvements.</p>
-            <p>I hadn't set a max-width on the form on tablet sized screens, so I set it to 800px in order for it not to become too wide</p>
-            <p>I added some styling like padding and a black border to all the input fields.</p>
-            <h3>Other minor improvements</h3>
-            <ul>
-                <li>Added transition to image hover effect and menu hover</li>
-            </ul>
+            <img src="images/csm.jpg" alt="screenshot of community science museums home page" class="img-no-shadow">
+            <p class="subtitle align-center">HTML, CSS & JS site for a science museum</p>
+            <div class="links align-center">
+                <a class="btn" href="https://tinadahl-csm.netlify.app" target="_blank">Website</a>
+                <a class="btn" href="https://github.com/dahltina/community-science-museum" target="_blank">GitHub</a>
+            </div>
+            <div class="project-copy">
+                <h2>Initial assignment</h2>
+                <h2 class="margin-top">Changes</h2>
+                <p>The feedback I got from this submission was mainly some technical issues, amongst them a horizontal scrollbar
+                    on the exhibitions page, that I had too long paragraphs as well as some div's that didn't get closed.</p>
+                <p>I fixed these issues, and made some other changes and improvements.</p>
+                <h3 class="margin-top">Contact page</h3>
+                <p>The contact page consists solely of a form. In the initial submission I hadn't put much work into styling it,
+                    so there was potential for improvements.</p>
+                <p>I hadn't set a max-width on the form on tablet sized screens, so I set it to 800px in order for it not to become too wide.</p>
+                <p>I added some styling like padding, a black border to all the input fields and set the font-family and font-size to be the same on all inputs.</p>
+                <p>Added client side form validation.</p>
+                <h3 class="margin-top">Other minor improvements</h3>
+                <ul>
+                    <li>Added transition to image hover effect and menu hover</li>
+                    <li>The layout on the index page on mobile size was a bit crammed, so I added padding here and there, for example between the cta boxes.</li>
+                    <li>On mobile and tablet sized screens, the active pages in the menu didn’t have a color to differentiate from the other sites, so I set it to red as on laptop-sized screens.</li>
+                    <li>Linked to specific parts of pages. For example, the «Explore robotics and AI» CTA on the index page now links to that section on the exhibitons page. I also linked up all the footer items to the correct parts of the pages.</li>
+                </ul>
+            </div>
         </div>
         <div class="more-projects-container">
-            <h2>More Projects</h2>
+            <h2 class="h2-more-projects">More Projects</h2>
             <div class="nomadlife-container">
                 <a href="nomadlife.html" class="align-center">
                     <img src="images/nomadlife.jpg" alt="screenshot of nomadlife's index page" class="index-img">
@@ -52,6 +60,7 @@
                     <p>HTML, CSS & JS e-commerce site for active wear brand</p>
                 </a>
             </div>
+            <a class="back" href="index.html">&leftarrow; Back to home page</a>
         </div>
 
     </main>
