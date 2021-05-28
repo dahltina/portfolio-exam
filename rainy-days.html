@@ -17,8 +17,59 @@
     </header>
     <main>
         <div class="proj-page-container">
-            <a class="btn" href="https://dahltina-firstproject.netlify.app" target="_blank">Website</a>
-            <a class="btn" href="https://github.com/dahltina/rainy-days" target="_blank">GitHub</a>
+            <img src="images/rainy-days.jpg" alt="screenshot of rainy days' home page" class="img-no-shadow">
+            <p class="subtitle align-center">HTML, CSS & JS e-commerce site for active wear brand</p>
+            <div class="links align-center">
+                <a class="btn" href="https://dahltina-firstproject.netlify.app" target="_blank">Website</a>
+                <a class="btn" href="https://github.com/dahltina/rainy-days" target="_blank">GitHub</a>
+            </div>
+            <div class="project-copy">
+                <h2>Assignment description</h2>
+                <p>An online shop selling men's and women's rain jackets. They are designed for a range of different outdoor activities such as hiking.
+                    The target audience are men and women aged 30 to 50 whose interests are: being outdoors, hiking, exploring, skiing, camping, canoeing.
+                    The jackets are mid-range in price and emphasize durability and being suitable for a range of different weather types ensuring customers
+                    are comfortable whatever adventure they go on.
+                </p>
+                <h2 class="margin-top">Changes</h2>
+                <p>Except from the positive, I got feedback on the last submission of this project that the
+                    cart was in need of more functionality, because it didn't progress after the first step.</p>
+                <p>When opening the project again this time the add to cart function (that targets a dynamically
+                    created button) had stopped working, without me changing anything. I asked for help from a tutor,
+                    and while he neither could figure out why, he suggested that I use setTimeout to wait two or three
+                    seconds for the API to finish fetching, or manage the addToCart function inside the try{} block.</p>
+                <p>The buttons still came out as null, so I decided to hard code them in stead.
+                    For now I think this solution works, but as mentioned in the Project Exam 1 report
+                    I had similar issues with that project, so I will have to look more into it during summer break.</p>
+                <p>After fixing the buttons I continued working on the checkout process. The login form and address form are not active yet,
+                    but I created a page for each of the steps in the checkout process. </p>
+                <h3 class="margin-top">Other minor improvements</h3>
+                <ul>
+                    <li>Fixed breadcrumb categories that used to say and link to the mens jackets page disregarding if it was a woman's jacket or which page the user was coming from.</li>
+                    <li>Removed some unnecessary divs that wrapped for instance the like icon.</li>
+                    <li>Fixed the image width on the index page. I had set them to a max width and height that resulted in that the whole main content had an inconsistent width.</li>
+                    <li>Added dynamic page title to product page.</li>
+                    <li>Added transition to buttons and changed the color on hover. It was previously a lighter shade of orange, but I felt like that color didn't have a place there, so I changed it to the main blue color of the site.</li>
+                    <li>Cleaned up a bit and deleted unused images.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="more-projects-container">
+            <h2 class="h2-more-projects">More Projects</h2>
+            <div class="nomadlife-container">
+                <a href="nomadlife.html" class="align-center">
+                    <img src="images/nomadlife.jpg" alt="screenshot of nomadlife's index page" class="index-img">
+                    <h2>nomadlife</h2>
+                    <p>HTML, CSS & JS travel blog using WordPress Rest API</p>
+                </a>
+            </div>
+            <div class="rainy-days-container">
+                <a href="csm.html" class="align-center">
+                    <img src="images/csm.jpg" alt="screenshot of community science museum's index page" class="index-img">
+                    <h2>community science museum</h2>
+                    <p>HTML, CSS & JS site for a science museum</p>
+                </a>
+            </div>
+            <a class="back" href="index.html">&leftarrow; Back to home page</a>
         </div>
 
     </main>
