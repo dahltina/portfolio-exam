@@ -11,14 +11,51 @@
     <title>nomadlife | Portfolio | Tina Dahl</title>
 </head>
 <body>
-    <header>
-        <h1>Projects | nomadlife</h1>
+    <header class="project-page-header">
+        <h1><a href="index.html">Projects</a> | nomadlife</h1>
         <a href="https://www.linkedin.com/in/tina-dahl-17531389/" target="_blank" class="contact">Contact</a>
     </header>
     <main>
         <div class="proj-page-container">
-            <a class="btn" href="https://nomadiclife.netlify.app" target="_blank">Website</a>
-            <a class="btn" href="https://github.com/dahltina/nomadlife" target="_blank">GitHub</a>
+            <img src="images/nomadlife.jpg" alt="screenshot of nomadlife's home page" class="img-no-shadow">
+            <p class="subtitle align-center">HTML, CSS & JS site for a science museum</p>
+            <div class="links align-center">
+                <a class="btn" href="https://nomadiclife.netlify.app" target="_blank">Website</a>
+                <a class="btn" href="https://github.com/dahltina/nomadlife" target="_blank">GitHub</a>
+            </div>
+            <div class="project-copy">
+                <h2>Assignment description</h2>
+                <p></p>
+                <h2 class="margin-top">Changes</h2>
+                <p>I hadn't got any feedback on this assignment, but I already had a list things I would have liked to add, and improve on the site.</p>
+                <h3 class="margin-top">Search bar</h3>
+                <p>In the last submission I fetched the different categories from the WordPress API to filter content. It's always useful to have the option to search, so I decided to try to make one. </p>
+                <p>I had no idea how to go about it, so I used <a class="blue-link" href="https://www.jamesqquick.com/blog/build-a-javascript-search-bar">this</a> tutorial to get an idea on how to do it.
+                    With the help of this I was able to make the searchbar functional using the keyup event to see if the search string matches any of the posts title, excerpt or content. </p>
+                <p>As of now results come up as you type.</p>
+                <h3 class="margin-top">Other minor improvements</h3>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div class="more-projects-container">
+            <h2 class="h2-more-projects">More Projects</h2>
+            <div class="csm-container">
+                <a href="csm.html" class="align-center">
+                    <img src="images/csm.jpg" alt="screenshot of community science museum's index page" class="index-img">
+                    <h2>community science museum</h2>
+                    <p>HTML, CSS & JS site for a science museum</p>
+                </a>
+            </div>
+            <div class="rainy-days-container">
+                <a href="rainy-days.html" class="align-center">
+                    <img src="images/rainy-days.jpg" alt="screenshot of rainy days' index page" class="index-img">
+                    <h2>rainy days</h2>
+                    <p>HTML, CSS & JS e-commerce site for active wear brand</p>
+                </a>
+            </div>
+            <a class="back" href="index.html">&leftarrow; Back to home page</a>
         </div>
 
     </main>

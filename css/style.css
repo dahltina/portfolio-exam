@@ -17,6 +17,11 @@ h1 {
     font-size: 20px;
 }
 
+.blue-link {
+    color: rgb(16, 7, 151);
+    text-decoration: underline;
+}
+
 /* global padding and margin classes */
 
 .margin-top {
@@ -96,6 +101,11 @@ header {
 }
 
 /* tablets and up */
+@media (min-width: 450px) {
+    main {
+        margin: 2% 10%;
+    }
+}
 /* layout */
 @media (min-width: 800px) {
 
@@ -133,10 +143,6 @@ header {
     }
 
     /* layout */
-    main {
-        margin: 2% 10%;
-    }
-
     .container,
     .proj-page-container,
     .more-projects-container {
