@@ -17,9 +17,19 @@ h1 {
     font-size: 20px;
 }
 
-.blue-link {
-    color: rgb(16, 7, 151);
+.link {
     text-decoration: underline;
+    text-decoration-color: rgb(107, 235, 150);
+    text-decoration-thickness: 3px;
+}
+
+.link:hover {
+    background-color: rgb(107, 235, 150);
+    transition: 0.2s ease-in;
+}
+
+li {
+    padding-top: 10px;
 }
 
 /* global padding and margin classes */
